@@ -2,7 +2,14 @@
   "permissions": {
     "allow": [
       "Bash(ls:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(mkdir:*)",
+      "Bash(docker-compose build:*)",
+      "Bash(timeout 30 docker-compose up -d --build)",
+      "Bash(docker-compose up:*)",
+      "Bash(docker-compose:*)",
+      "Bash(curl:*)",
+      "Bash(docker exec:*)"
     ],
     "deny": []
   }
